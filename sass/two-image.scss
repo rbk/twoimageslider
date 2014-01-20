@@ -1,0 +1,56 @@
+#container {
+	line-height: 0;
+	margin: 3em auto;
+	position: relative;
+	height: 339px;
+	width: 516px;
+	overflow: hidden;
+
+	&:hover {
+		cursor: ew-resize;
+	}
+	::selection,
+	::-moz-selection {
+
+		background-color: transparent;
+	}
+
+	a#control {
+		background-color: #3596d3;
+		height: 339px;
+		position: absolute; 
+		left: 50%;
+		width: 0;
+		// width: 0px;
+		// margin-left: -5px;
+
+
+		&:hover {
+			cursor: ew-resize;
+			box-shadow: 1px 1px 10px #3596d3;
+		}
+	}
+	.left, .right, a#control {
+		position: absolute;
+		display: block;
+	}
+	.left, .right {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.right {
+		width: 50%;
+	}
+	#icon {
+		height: 32px; width: 32px;
+		background: url( ../images/left-right-32x32.png ) 0 0;
+		display: block;
+		top: 50%;
+		position: relative;
+		margin-left: -16px;
+		margin-top: -16px;
+
+	}
+	
+}

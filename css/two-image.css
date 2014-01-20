@@ -1,0 +1,57 @@
+/* line 1, ../sass/two-image.scss */
+#container {
+  line-height: 0;
+  margin: 3em auto;
+  position: relative;
+  height: 339px;
+  width: 516px;
+  overflow: hidden;
+}
+/* line 9, ../sass/two-image.scss */
+#container:hover {
+  cursor: ew-resize;
+}
+/* line 13, ../sass/two-image.scss */
+#container ::selection,
+#container ::-moz-selection {
+  background-color: transparent;
+}
+/* line 18, ../sass/two-image.scss */
+#container a#control {
+  background-color: #3596d3;
+  height: 339px;
+  position: absolute;
+  left: 50%;
+  width: 0;
+}
+/* line 28, ../sass/two-image.scss */
+#container a#control:hover {
+  cursor: ew-resize;
+  box-shadow: 1px 1px 10px #3596d3;
+}
+/* line 33, ../sass/two-image.scss */
+#container .left, #container .right, #container a#control {
+  position: absolute;
+  display: block;
+}
+/* line 37, ../sass/two-image.scss */
+#container .left, #container .right {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+/* line 42, ../sass/two-image.scss */
+#container .right {
+  width: 50%;
+}
+/* line 45, ../sass/two-image.scss */
+#container #icon {
+  height: 32px;
+  width: 32px;
+  background: url(../images/left-right-32x32.png) 0 0;
+  display: block;
+  top: 50%;
+  position: relative;
+  margin-left: -16px;
+  margin-top: -16px;
+}

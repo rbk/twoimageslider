@@ -1,0 +1,56 @@
+/* line 1, ../sass/slider.scss */
+.slider {
+  border: 1px solid red;
+  width: 800px;
+  height: 500px;
+  margin: 2em auto;
+  position: relative;
+}
+/* line 9, ../sass/slider.scss */
+.slider .slider-nav-wrap {
+  position: absolute;
+  width: 15%;
+  overflow: hidden;
+  height: 400px;
+}
+/* line 15, ../sass/slider.scss */
+.slider .slider-nav-wrap .slider-thumbs {
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+}
+/* line 21, ../sass/slider.scss */
+.slider .slider-nav-wrap .slide {
+  display: block;
+  height: 75px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+/* line 26, ../sass/slider.scss */
+.slider .slider-nav-wrap .slide img {
+  width: 120%;
+  height: auto;
+}
+/* line 33, ../sass/slider.scss */
+.slider .image-stage {
+  position: absolute;
+  right: 0;
+  width: 84.3%;
+}
+/* line 37, ../sass/slider.scss */
+.slider .image-stage img {
+  width: 100%;
+  height: auto;
+}
+/* line 44, ../sass/slider.scss */
+.slider a.nav {
+  position: absolute;
+}
+/* line 47, ../sass/slider.scss */
+.slider a.up-left {
+  top: 0;
+}
+/* line 50, ../sass/slider.scss */
+.slider a.down-right {
+  bottom: 0;
+}
